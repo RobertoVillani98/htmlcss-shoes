@@ -2,6 +2,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	z-index: 100;
 }
 
 .header-main {
@@ -73,14 +78,18 @@
 }
 
 #prima-scarpa {
+	z-index: -10;
 	background-image: url("../img/01.png");
 }
 
 #seconda-scarpa {
+	z-index: -10;
+
 	background-image: url("../img/02.png");
 }
 
 #terza-scarpa {
+	z-index: -10;
 	background-image: url("../img/03.png");
 }
 
